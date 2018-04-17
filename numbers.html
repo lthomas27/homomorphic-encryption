@@ -25,30 +25,25 @@
 			data to be carried out on cipher text, instead of on the actual data itself. The cipher text 
 			is a encrypted version of the input data (also called plain text). It is operated on and then 
 			decrypted to obtain the desired output.</i> (Chumbley)</p>
-			<center><br><h3>Click one of the following links to download a demo of homomorphic number encryption using Shamir's Secret Sharing.</h3><br>
-			<p><a href="HomomorphicNumbers(+).jar" style="color: #fff; text-decoration: underline;">Homomorphic Number Addition</a> ...or...  
-			<a href="HomomorphicNumbers(-).jar" style="color: #fff; text-decoration: underline;">Homomorphic Number Subtraction</a></p>
-			</center>
+			<div class="row">
+				<div class="col-sm-6">
+					<h3>Click one of the following links to download a demo of homomorphic number encryption using Shamir's Secret Sharing:</h3><br>
+					<ul style="font-size: 20px;">
+						<li><a href="HomomorphicNumbers(+).jar" style="color: #fff; text-decoration: underline;">Homomorphic Number Addition</a></li>
+						<li><a href="HomomorphicNumbers(-).jar" style="color: #fff; text-decoration: underline;">Homomorphic Number Subtraction</a></li>
+					</ul>
+				</div>
+				<div class="col-sm-6">
+					<center><img src="number.jpg"></center>
+				</div>
+			</div>
 		</section>
 		<footer class="navbar">
 			<b>References</b><br>
 			Chumbley, Alex et al. (n.d.). Homomorphic Encryption. Retrieved March 22, 2018, 
-			from <a href="https://brilliant.org/wiki/homomorphic-encryption/">https://brilliant.org/wiki/homomorphic-encryption/</a>
+			from <a href="https://brilliant.org/wiki/homomorphic-encryption/">https://brilliant.org/wiki/homomorphic-encryption/</a></br>
+			Fully Homomorphic Encryption Schemes. (n.d.). Retrieved March 27, 2018, from 
+			<a href="http://cryptowiki.net/index.php?title=Fully_homomorphic_encryption_schemes">http://cryptowiki.net/index.php?title=Fully_homomorphic_encryption_schemes</a>
 		</footer>
 	</body>
-	<script>
-		function encrypt() {
-			var n1=parseInt(document.getElementById("first").value);
-			var n2=parseInt(document.getElementById("second").value);
-			var sum=n1+n2;
-			
-			document.getElementById("sum").value=sum;
-			
-			var esum=n1*2 + n2*2;
-			var result='';
-			document.getElementById("result").innerText=result.concat(n1*2,"+",n2*2,"=",esum);
-			
-			document.getElementById("result2").innerText=esum/2;
-		}
-	</script>
 </html>
