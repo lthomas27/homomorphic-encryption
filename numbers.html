@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Luke's Homomorphic Encryption Site</title>
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="main.css">
+	</head>
+	<body style="overflow: hidden">
+		<nav class="navbar">
+			<div class="container-fluid">
+				<div class="navbar-left">
+					<h2>Number Encryption</h2>
+				</div>
+				<div class="navbar-right">
+					<a href="index.html">Home</a>&nbsp;
+					<a href="numbers.html">Number</a>&nbsp;
+					<a href="text.html">Text</a>&nbsp;
+					<a href="images.html">Image</a>&nbsp;
+					<a href="about.html">About</a>
+				</div>
+			</div>
+		</nav>
+		<section class="jumbotron" style="padding-left:10px;"><br>
+			<p><i>Homomorphic encryption is a cryptographic method that allows mathematical operations on 
+			data to be carried out on cipher text, instead of on the actual data itself. The cipher text 
+			is a encrypted version of the input data (also called plain text). It is operated on and then 
+			decrypted to obtain the desired output.</i> (Chumbley)</p>
+			<center><br><h3>Click one of the following links to download a demo of homomorphic number encryption using Shamir's Secret Sharing.</h3><br>
+			<p><a href="HomomorphicNumbers(+).jar" style="color: #fff; text-decoration: underline;">Homomorphic Number Addition</a> ...or...  
+			<a href="HomomorphicNumbers(-).jar" style="color: #fff; text-decoration: underline;">Homomorphic Number Subtraction</a></p>
+			</center>
+		</section>
+		<footer class="navbar">
+			<b>References</b><br>
+			Chumbley, Alex et al. (n.d.). Homomorphic Encryption. Retrieved March 22, 2018, 
+			from <a href="https://brilliant.org/wiki/homomorphic-encryption/">https://brilliant.org/wiki/homomorphic-encryption/</a>
+		</footer>
+	</body>
+	<script>
+		function encrypt() {
+			var n1=parseInt(document.getElementById("first").value);
+			var n2=parseInt(document.getElementById("second").value);
+			var sum=n1+n2;
+			
+			document.getElementById("sum").value=sum;
+			
+			var esum=n1*2 + n2*2;
+			var result='';
+			document.getElementById("result").innerText=result.concat(n1*2,"+",n2*2,"=",esum);
+			
+			document.getElementById("result2").innerText=esum/2;
+		}
+	</script>
+</html>
