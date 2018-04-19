@@ -29,6 +29,17 @@ button:hover {
 	color: blue;
 }
 
+.navbar {
+	background-color: #fff;
+	height: 10vh;
+	border-radius: 0;
+	color: #000;
+	margin-bottom:0;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-family: "Times New Roman", Times, serif;
+}
+
 a {
 	color: #000;
 }
@@ -38,47 +49,37 @@ a:hover {
 	color: blue;
 }
 
-input { 
-    text-align: center; 
-}
-
-.navbar {
-	background-color: #fff;
-	height: 10vh;
-	border-radius: 0;
-	color: #000;
-	margin-bottom:0;
-	padding-left: 10px;
-	padding-right: 10px;
-}
-
 .navbar-right {
 	padding-top: 20px;
 }
 
 .jumbotron {
 	height: 80vh;
-	background-color: #000;
 	color: #fff;
-	border-top: 2px solid blue;
-	border-bottom: 2px solid blue;
 	margin-bottom:0;
 	padding: 10px;
+	font-family: "Times New Roman", Times, serif;
+	background-image: url("background.jpg");
+	background-repeat: no-repeat;
+	background-size: 100vw 100vh;
+}
+
+.jumbotron a {
+	color: #fff !important;
+}
+
+.jumbotron a:hover {
+	color: blue !important;
+}
+
+.container {
+	border-radius: 5px;
+	background-color: rgba(0,0,0,.9);
+	padding: 10px;
+	height: 100%;
+	width: 100%;
 }
 
 footer a {
 	text-decoration: underline;
-}
-
-input {
-	background: radial-gradient(circle, black, blue, black);
-	color: #fff;
-	border: 1px solid white;
-}
-
-input:hover {
-	outline: none;
-	box-shadow: 0px 0px 5px #61C5FA;
-	border:1px solid #5AB0DB;
-	border-radius:0;
 }
