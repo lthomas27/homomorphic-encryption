@@ -31,7 +31,6 @@ button:hover {
 
 .navbar {
 	background-color: #fff;
-	height: 10vh;
 	border-radius: 0;
 	color: #000;
 	margin-bottom:0;
@@ -50,18 +49,17 @@ a:hover {
 }
 
 .navbar-right {
-	padding-top: 20px;
+	padding-top: 5vh;
 }
 
 .jumbotron {
-	height: 80vh;
 	color: #fff;
-	margin-bottom:0;
-	padding: 10px;
 	font-family: "Times New Roman", Times, serif;
 	background-image: url("background.jpg");
 	background-repeat: no-repeat;
-	background-size: 100vw 100vh;
+	background-size: 100vw 80vh;
+	height: 80vh;
+	margin-bottom: 0;
 }
 
 .jumbotron a {
@@ -73,13 +71,92 @@ a:hover {
 }
 
 .container {
-	border-radius: 5px;
 	background-color: rgba(0,0,0,.9);
 	padding: 10px;
 	height: 100%;
-	width: 100%;
+	width: 100vw;
+}
+
+.container img {
+	height: 60%;
+	width: 70%;
 }
 
 footer a {
 	text-decoration: underline;
+}
+
+.row {
+  padding-right: 0px;
+  margin-right: 0px;
+}
+
+.blink_me:hover {
+    -webkit-animation-name: blinker;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+
+    -moz-animation-name: blinker;
+    -moz-animation-duration: 1s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
+
+    animation-name: blinker;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@-moz-keyframes blinker {
+    0% { opacity: 1.0; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1.0; }
+}
+
+@keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1.0; }
+}
+
+.flash_me {
+    -webkit-animation-name: flasher;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+
+    -moz-animation-name: flasher;
+    -moz-animation-duration: 1s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: 1;
+
+    animation-name: flasher;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+}
+
+@-moz-keyframes flasher {
+    0% { background-color: #fff; color: #000; }
+    50% { background-color: #ccc; color: #fff; }
+    100% { background-color: #fff; color: #000; }
+}
+
+@-webkit-keyframes flasher {  
+    0% { background-color: #fff; color: #000; }
+    50% { background-color: #ccc; color: #fff; }
+    100% { background-color: #fff; color: #000; }
+}
+
+@keyframes flasher {  
+    0% { background-color: #fff; color: #000; }
+    50% { background-color: #ccc; color: #fff; }
+    100% { background-color: #fff; color: #000; }
 }
