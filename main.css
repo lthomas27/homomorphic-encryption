@@ -1,15 +1,19 @@
+body {
+	background-color: #000;
+}
+
+nav {
+	border-bottom: 1px solid black !important;
+}
+
 .navbar {
-	background: linear-gradient(to top, black, cyan);
-	border-radius: 0;
+	background: linear-gradient(to top, black, #cceeff);
+	border-radius: 0px;
 	color: #fff;
-	margin-bottom:0;
+	margin-bottom:0px;
 	padding-left: 10px;
 	padding-right: 10px;
 	font-family: "Times New Roman", Times, serif;
-}
-
-footer {
-	background: linear-gradient(to bottom, black, cyan) !important;
 }
 
 a {
@@ -33,23 +37,35 @@ a:hover {
 	background-size: 100vw 100vh;
 	background-attachment: fixed;
 	height: 80vh;
-	margin-bottom: 0;
 }
 
 .jumbotron a {
 	text-decoration: none !important;
 }
 
-.container {
+.floating {
 	background-color: rgba(0,0,0,.9);
 	padding: 10px;
 	height: 100%;
 	width: 100vw;
 }
 
+.main {
+	background-color: #cceeff;
+	padding: 10px;
+	font-size: 18px;
+	border-radius: 10px;
+}
+
 .container img {
 	height: 60%;
 	width: 70%;
+}
+
+footer {
+	margin-top: 20px;
+	border-top: 1px solid black !important;
+	background: linear-gradient(to bottom, black, #cceeff) !important;
 }
 
 footer a {

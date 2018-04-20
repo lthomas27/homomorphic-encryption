@@ -21,7 +21,7 @@
 			</div>
 		</nav>
 		<section class="jumbotron">
-			<div class="container">
+			<div class="container floating">
 				<p>"In certain application cases, it is a risk if a set of secret data is held by only one person without extra copies 
 				because the secret data set may be lost incidentally or modified intentionally...(or) it might be necessary for a group of 
 				persons to share a certain set of secret data" (Lin).</p>
@@ -42,6 +42,21 @@
 							<li>Choose two images to use in the encryption.<br>*Pixel subtraction runs as follows: Image 1 - Image 2</li>
 						</ol>
 					</div>
+				</div>
+			</div>
+		</section>
+		<section class="container main">
+			<div class="row">
+				<div class="col-lg-6">
+					<h1>Summary</h1>
+					For homomorphic image encryption, the user can either choose two images from their personal storage or two sample 
+					images from the provided directory, named "images", included in the ZIP file.  Shares are created from these images 
+					on which a user-chosen homomorphic encryption method is used (addition or subtraction).  The results from these share 
+					operations are then used to reconstruct the secret image, which is either the sum of the pixels from the image inputs 
+					or their difference.  Users can view the images in larger formats by navigating through the provided directories.
+				</div>
+				<div class="col-lg-6">
+					<center><img src="is.png"></center>
 				</div>
 			</div>
 		</section>

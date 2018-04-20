@@ -21,7 +21,7 @@
 			</div>
 		</nav>
 		<section class="jumbotron">
-			<div class="container">
+			<div class="container floating">
 				<p><i>Homomorphic encryption is a cryptographic method that allows mathematical operations on 
 				data to be carried out on cipher text, instead of on the actual data itself. The cipher text 
 				is a encrypted version of the input data (also called plain text). It is operated on and then 
@@ -37,6 +37,21 @@
 					<div class="col-lg-6">
 						<center><img src="number.jpg"></center>
 					</div>
+				</div>
+			</div>
+		</section>
+		<section class="container main">
+			<div class="row">
+				<div class="col-lg-6">
+					<h1>Summary</h1>
+					Each user-provided number is used to create the corresponding encrypted shares.  
+					The shares of the second number are then added to or subtracted from the shares 
+					of the first number to produce the encrypted results.  These results are then 
+					passed through the reconstruction function, which utilizes Lagrange Interpolation, 
+					to produce the original sum or difference for the user inputs.
+				</div>
+				<div class="col-lg-6">
+					<center><img src="na.gif"></center>
 				</div>
 			</div>
 		</section>
