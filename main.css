@@ -1,51 +1,24 @@
-html {
-	background-color: #000;
-	color: #fff;
-}
-
-button {
-	color: #000;
-}
-
-table {
-	text-align: center;
-	color: #fff;
-	background-color: #454140;
-}
-
-table td {
-	border: 2px solid blue;
-	width: 200px;
-	height: 55px;
-}
-
-button {
-	background-color: blue;
-	color: #fff;
-}
-
-button:hover {
-	background-color: #fff;
-	color: blue;
-}
-
 .navbar {
-	background-color: #fff;
+	background: linear-gradient(to top, black, cyan);
 	border-radius: 0;
-	color: #000;
+	color: #fff;
 	margin-bottom:0;
 	padding-left: 10px;
 	padding-right: 10px;
 	font-family: "Times New Roman", Times, serif;
 }
 
+footer {
+	background: linear-gradient(to bottom, black, cyan) !important;
+}
+
 a {
-	color: #000;
+	color: #fff;
 }
 
 a:hover {
 	text-decoration: none;
-	color: blue;
+	color: #000;
 }
 
 .navbar-right {
@@ -57,17 +30,14 @@ a:hover {
 	font-family: "Times New Roman", Times, serif;
 	background-image: url("background.jpg");
 	background-repeat: no-repeat;
-	background-size: 100vw 80vh;
+	background-size: 100vw 100vh;
+	background-attachment: fixed;
 	height: 80vh;
 	margin-bottom: 0;
 }
 
 .jumbotron a {
-	color: #fff !important;
-}
-
-.jumbotron a:hover {
-	color: blue !important;
+	text-decoration: none !important;
 }
 
 .container {
@@ -144,19 +114,19 @@ footer a {
 }
 
 @-moz-keyframes flasher {
-    0% { background-color: #fff; color: #000; }
-    50% { background-color: #ccc; color: #fff; }
-    100% { background-color: #fff; color: #000; }
+    0% { #fff; color: #fff; }
+    50% { #ccc; color: #000; }
+    100% { #fff; color: #fff; }
 }
 
 @-webkit-keyframes flasher {  
-    0% { background-color: #fff; color: #000; }
-    50% { background-color: #ccc; color: #fff; }
-    100% { background-color: #fff; color: #000; }
+    0% { color: #fff; }
+    50% { color: #000; }
+    100% { color: #fff; }
 }
 
 @keyframes flasher {  
-    0% { background-color: #fff; color: #000; }
-    50% { background-color: #ccc; color: #fff; }
-    100% { background-color: #fff; color: #000; }
+    0% { color: #fff; }
+    50% { color: #000; }
+    100% { color: #fff; }
 }
