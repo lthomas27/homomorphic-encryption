@@ -1,5 +1,9 @@
 body {
 	background-color: #000;
+	background-image: url("background.jpg");
+	background-repeat: no-repeat;
+	background-size: 100vw 100vh;
+	background-attachment: fixed;
 }
 
 nav {
@@ -32,11 +36,9 @@ a:hover {
 .jumbotron {
 	color: #fff;
 	font-family: "Times New Roman", Times, serif;
-	background-image: url("background.jpg");
-	background-repeat: no-repeat;
-	background-size: 100vw 100vh;
-	background-attachment: fixed;
+	background-color: rgba(0,0,0,0);
 	height: 80vh;
+	margin-bottom:0;
 }
 
 .jumbotron a {
@@ -63,7 +65,7 @@ a:hover {
 }
 
 footer {
-	margin-top: 20px;
+	margin-top: 40px;
 	border-top: 1px solid black !important;
 	background: linear-gradient(to bottom, black, #cceeff) !important;
 }
