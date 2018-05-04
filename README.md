@@ -1,4 +1,5 @@
 # homomorphic-encryption
+Luke Thomas</br>
 Web-based user interface for demonstrating the homomorphic encryption properties of Shamir's Secret Sharing Scheme.
 
 # HOW TO RUN THE PROGRAMS
@@ -22,6 +23,6 @@ Web-based user interface for demonstrating the homomorphic encryption properties
 3. Click the "Search" button to run the encryption.
 4. View files by clicking on the provided buttons.
 
-**For Image Add/Subtract**
+**For Image Add/Subtract Demos**
 1. Use the file explorer to select two images.
 2. Click the "Encrypt" button to run the encryption.
