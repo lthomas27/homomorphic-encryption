@@ -1,7 +1,7 @@
 # homomorphic-encryption
 Web-based user interface for introducing homomorphic encryption properties of Shamir's Secret Sharing Scheme.
 
-HOW TO RUN THE PROGRAMS
+# HOW TO RUN THE PROGRAMS
 ***Users must have Java installed on their machines to run the demos***
 Case 1: If the program is a .jar, simply double-click the file to execute it.
 Case 2: If the program is nested inside a .zip, you must first extract all. DO NOT MODIFY DIRECTORY TREE.
