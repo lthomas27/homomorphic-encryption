@@ -6,8 +6,7 @@ Web-based user interface for demonstrating the homomorphic encryption properties
 
 **Download Types**
 1. If the program is a .jar, simply double-click the file to execute it.
-2. If the program is nested inside a .zip, you must first extract all. DO NOT MODIFY DIRECTORY TREE.
-        Then double-click the .jar file to execute the program.
+2. If the program is nested within a .zip, you must first extract all. DO NOT MODIFY DIRECTORY TREE. Then double-click the .jar file to execute the program.
         
 **For Number Add/Subtract Demos**
 1. Enter two integers into the provided equation. No need to enter the sum/difference.
