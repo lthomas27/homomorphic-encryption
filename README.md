@@ -1,5 +1,5 @@
 # homomorphic-encryption
-Luke Thomas</br>
+***Sole Contributor: Luke Thomas***</br>
 Web-based user interface for demonstrating the homomorphic encryption properties of Shamir's Secret Sharing Scheme.
 
 # HOW TO RUN THE PROGRAMS
